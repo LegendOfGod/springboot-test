@@ -1,0 +1,18 @@
+2021-12-20 10:46:45.166 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 28372 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+2021-12-20 10:46:45.166 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 28372 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+2021-12-20 10:46:45.174 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2021-12-20 10:46:45.174 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2021-12-20 10:46:46.341 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-12-20 10:46:46.344 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-12-20 10:46:46.377 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-12-20 10:46:47.199 [main-108] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8080 (http)
+2021-12-20 10:46:47.222 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-20 10:46:47.223 [main-173] INFO  o.a.catalina.core.StandardService 173 log - Starting service [Tomcat]
+2021-12-20 10:46:47.224 [main-173] INFO  o.a.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-20 10:46:47.391 [main-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring embedded WebApplicationContext
+2021-12-20 10:46:47.392 [main-290] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2148 ms
+2021-12-20 10:46:48.738 [main-43] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration 43 logWarning - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2021-12-20 10:46:48.757 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-20 10:46:48.781 [main-220] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-20 10:46:48.797 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.689 seconds (JVM running for 8.487)
+2021-12-20 10:46:48.797 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.689 seconds (JVM running for 8.487)
