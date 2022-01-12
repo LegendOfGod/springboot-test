@@ -1,18 +1,137 @@
-2021-12-20 10:46:45.166 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 28372 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
-2021-12-20 10:46:45.166 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 28372 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
-2021-12-20 10:46:45.174 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2021-12-20 10:46:45.174 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
-2021-12-20 10:46:46.341 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-12-20 10:46:46.344 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2021-12-20 10:46:46.377 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
-2021-12-20 10:46:47.199 [main-108] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8080 (http)
-2021-12-20 10:46:47.222 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-8080"]
-2021-12-20 10:46:47.223 [main-173] INFO  o.a.catalina.core.StandardService 173 log - Starting service [Tomcat]
-2021-12-20 10:46:47.224 [main-173] INFO  o.a.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-20 10:46:47.391 [main-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring embedded WebApplicationContext
-2021-12-20 10:46:47.392 [main-290] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2148 ms
-2021-12-20 10:46:48.738 [main-43] WARN  o.s.b.s.r.RedisStarterDeprecationWarningAutoConfiguration 43 logWarning - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
-2021-12-20 10:46:48.757 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-8080"]
-2021-12-20 10:46:48.781 [main-220] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8080 (http) with context path ''
-2021-12-20 10:46:48.797 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.689 seconds (JVM running for 8.487)
-2021-12-20 10:46:48.797 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.689 seconds (JVM running for 8.487)
+[TRACEID:] 2022-01-12 15:25:42.791 [main-55] INFO  c.e.s.SpringbootApplicationTests 55 logStarting - Starting SpringbootApplicationTests using Java 1.8.0_201 on AC5957 with PID 22512 (started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:25:42.791 [main-55] INFO  c.e.s.SpringbootApplicationTests 55 logStarting - Starting SpringbootApplicationTests using Java 1.8.0_201 on AC5957 with PID 22512 (started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:25:42.798 [main-635] INFO  c.e.s.SpringbootApplicationTests 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:25:42.798 [main-635] INFO  c.e.s.SpringbootApplicationTests 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:25:42.813 [background-preinit-21] INFO  o.h.validator.internal.util.Version 21 <clinit> - HV000001: Hibernate Validator 6.2.0.Final
+[TRACEID:] 2022-01-12 15:25:44.580 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[TRACEID:] 2022-01-12 15:25:44.588 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[TRACEID:] 2022-01-12 15:25:44.639 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+[TRACEID:] 2022-01-12 15:25:44.814 [main-44] WARN  o.m.s.mapper.ClassPathMapperScanner 44 warn - Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+[TRACEID:] 2022-01-12 15:25:45.703 [main-376] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 postProcessAfterInitialization - Bean 'beanLifeCycleConfig' of type [com.example.springboot.beanlifecycle.BeanLifeCycleConfig$$EnhancerBySpringCGLIB$$335fb829] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[TRACEID:] 2022-01-12 15:25:49.049 [main-61] INFO  c.e.s.SpringbootApplicationTests 61 logStarted - Started SpringbootApplicationTests in 7.223 seconds (JVM running for 10.35)
+[TRACEID:] 2022-01-12 15:25:49.049 [main-61] INFO  c.e.s.SpringbootApplicationTests 61 logStarted - Started SpringbootApplicationTests in 7.223 seconds (JVM running for 10.35)
+[TRACEID:] 2022-01-12 15:25:53.406 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:25:53.407 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:26:12.014 [background-preinit-21] INFO  o.h.validator.internal.util.Version 21 <clinit> - HV000001: Hibernate Validator 6.2.0.Final
+[TRACEID:] 2022-01-12 15:26:12.025 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 7240 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:26:12.025 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 7240 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:26:12.026 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:26:12.026 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:26:13.628 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[TRACEID:] 2022-01-12 15:26:13.632 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[TRACEID:] 2022-01-12 15:26:13.686 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+[TRACEID:] 2022-01-12 15:26:13.849 [main-44] WARN  o.m.s.mapper.ClassPathMapperScanner 44 warn - Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+[TRACEID:] 2022-01-12 15:26:14.949 [main-376] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 postProcessAfterInitialization - Bean 'beanLifeCycleConfig' of type [com.example.springboot.beanlifecycle.BeanLifeCycleConfig$$EnhancerBySpringCGLIB$$b7ddf5c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[TRACEID:] 2022-01-12 15:26:15.651 [main-108] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8080 (http)
+[TRACEID:] 2022-01-12 15:26:15.666 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:26:15.668 [main-173] INFO  o.a.catalina.core.StandardService 173 log - Starting service [Tomcat]
+[TRACEID:] 2022-01-12 15:26:15.668 [main-173] INFO  o.a.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/9.0.55]
+[TRACEID:] 2022-01-12 15:26:15.831 [main-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring embedded WebApplicationContext
+[TRACEID:] 2022-01-12 15:26:15.832 [main-290] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3699 ms
+[TRACEID:] 2022-01-12 15:26:17.769 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:26:17.793 [main-220] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8080 (http) with context path ''
+[TRACEID:] 2022-01-12 15:26:17.806 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 6.665 seconds (JVM running for 8.704)
+[TRACEID:] 2022-01-12 15:26:17.806 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 6.665 seconds (JVM running for 8.704)
+[TRACEID:] 2022-01-12 15:26:46.079 [background-preinit-21] INFO  o.h.validator.internal.util.Version 21 <clinit> - HV000001: Hibernate Validator 6.2.0.Final
+[TRACEID:] 2022-01-12 15:26:46.096 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 20200 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:26:46.096 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 20200 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:26:46.097 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:26:46.097 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:26:47.135 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[TRACEID:] 2022-01-12 15:26:47.137 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[TRACEID:] 2022-01-12 15:26:47.167 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+[TRACEID:] 2022-01-12 15:26:47.271 [main-44] WARN  o.m.s.mapper.ClassPathMapperScanner 44 warn - Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+[TRACEID:] 2022-01-12 15:26:47.633 [main-376] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 postProcessAfterInitialization - Bean 'beanLifeCycleConfig' of type [com.example.springboot.beanlifecycle.BeanLifeCycleConfig$$EnhancerBySpringCGLIB$$b9955511] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[TRACEID:] 2022-01-12 15:26:47.981 [main-108] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8080 (http)
+[TRACEID:] 2022-01-12 15:26:47.990 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:26:47.991 [main-173] INFO  o.a.catalina.core.StandardService 173 log - Starting service [Tomcat]
+[TRACEID:] 2022-01-12 15:26:47.992 [main-173] INFO  o.a.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/9.0.55]
+[TRACEID:] 2022-01-12 15:26:48.091 [main-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring embedded WebApplicationContext
+[TRACEID:] 2022-01-12 15:26:48.092 [main-290] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1904 ms
+[TRACEID:] 2022-01-12 15:26:49.286 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:26:49.304 [main-220] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8080 (http) with context path ''
+[TRACEID:] 2022-01-12 15:26:49.315 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.12 seconds (JVM running for 5.88)
+[TRACEID:] 2022-01-12 15:26:49.315 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.12 seconds (JVM running for 5.88)
+[TRACEID:] 2022-01-12 15:29:22.595 [http-nio-8080-exec-1-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TRACEID:] 2022-01-12 15:29:22.596 [http-nio-8080-exec-1-525] INFO  o.s.web.servlet.DispatcherServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[TRACEID:] 2022-01-12 15:29:22.597 [http-nio-8080-exec-1-547] INFO  o.s.web.servlet.DispatcherServlet 547 initServletBean - Completed initialization in 1 ms
+[TRACEID:9b411f64-849e-4c61-89bf-0002a218c8f8] 2022-01-12 15:29:22.635 [http-nio-8080-exec-1-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:9b411f64-849e-4c61-89bf-0002a218c8f8] 2022-01-12 15:29:22.635 [http-nio-8080-exec-1-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:7a35db6e-729b-4368-a0fe-99456b0ce7a3] 2022-01-12 15:29:41.460 [http-nio-8080-exec-3-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:7a35db6e-729b-4368-a0fe-99456b0ce7a3] 2022-01-12 15:29:41.460 [http-nio-8080-exec-3-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:a3fad8e5-24e9-4285-a84c-3f39075b77ae] 2022-01-12 15:29:53.286 [http-nio-8080-exec-4-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:a3fad8e5-24e9-4285-a84c-3f39075b77ae] 2022-01-12 15:29:53.286 [http-nio-8080-exec-4-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:] 2022-01-12 15:31:14.124 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:31:14.124 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:31:24.329 [background-preinit-21] INFO  o.h.validator.internal.util.Version 21 <clinit> - HV000001: Hibernate Validator 6.2.0.Final
+[TRACEID:] 2022-01-12 15:31:24.358 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 18916 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:31:24.358 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 18916 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:31:24.359 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:31:24.359 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:31:25.640 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[TRACEID:] 2022-01-12 15:31:25.643 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[TRACEID:] 2022-01-12 15:31:25.674 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+[TRACEID:] 2022-01-12 15:31:25.779 [main-44] WARN  o.m.s.mapper.ClassPathMapperScanner 44 warn - Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+[TRACEID:] 2022-01-12 15:31:26.116 [main-376] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 postProcessAfterInitialization - Bean 'beanLifeCycleConfig' of type [com.example.springboot.beanlifecycle.BeanLifeCycleConfig$$EnhancerBySpringCGLIB$$9757c076] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[TRACEID:] 2022-01-12 15:31:26.463 [main-108] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8080 (http)
+[TRACEID:] 2022-01-12 15:31:26.471 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:31:26.472 [main-173] INFO  o.a.catalina.core.StandardService 173 log - Starting service [Tomcat]
+[TRACEID:] 2022-01-12 15:31:26.472 [main-173] INFO  o.a.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/9.0.55]
+[TRACEID:] 2022-01-12 15:31:26.572 [main-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring embedded WebApplicationContext
+[TRACEID:] 2022-01-12 15:31:26.572 [main-290] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2074 ms
+[TRACEID:] 2022-01-12 15:31:27.770 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:31:27.790 [main-220] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8080 (http) with context path ''
+[TRACEID:] 2022-01-12 15:31:27.801 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.386 seconds (JVM running for 6.192)
+[TRACEID:] 2022-01-12 15:31:27.801 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.386 seconds (JVM running for 6.192)
+[TRACEID:] 2022-01-12 15:31:38.575 [http-nio-8080-exec-2-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TRACEID:] 2022-01-12 15:31:38.575 [http-nio-8080-exec-2-525] INFO  o.s.web.servlet.DispatcherServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[TRACEID:] 2022-01-12 15:31:38.576 [http-nio-8080-exec-2-547] INFO  o.s.web.servlet.DispatcherServlet 547 initServletBean - Completed initialization in 1 ms
+[TRACEID:b8bcd27b-8fa9-426b-ab07-5440c5a867d1] 2022-01-12 15:31:38.612 [http-nio-8080-exec-2-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:b8bcd27b-8fa9-426b-ab07-5440c5a867d1] 2022-01-12 15:31:38.612 [http-nio-8080-exec-2-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:] 2022-01-12 15:32:28.747 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:32:28.748 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:32:38.382 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 13632 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:32:38.382 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 13632 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:32:38.392 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:32:38.392 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:32:38.397 [background-preinit-21] INFO  o.h.validator.internal.util.Version 21 <clinit> - HV000001: Hibernate Validator 6.2.0.Final
+[TRACEID:] 2022-01-12 15:32:39.604 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[TRACEID:] 2022-01-12 15:32:39.607 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[TRACEID:] 2022-01-12 15:32:39.640 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[TRACEID:] 2022-01-12 15:32:39.775 [main-44] WARN  o.m.s.mapper.ClassPathMapperScanner 44 warn - Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+[TRACEID:] 2022-01-12 15:32:40.153 [main-376] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 postProcessAfterInitialization - Bean 'beanLifeCycleConfig' of type [com.example.springboot.beanlifecycle.BeanLifeCycleConfig$$EnhancerBySpringCGLIB$$d3ed7251] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[TRACEID:] 2022-01-12 15:32:40.537 [main-108] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8080 (http)
+[TRACEID:] 2022-01-12 15:32:40.547 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:32:40.548 [main-173] INFO  o.a.catalina.core.StandardService 173 log - Starting service [Tomcat]
+[TRACEID:] 2022-01-12 15:32:40.549 [main-173] INFO  o.a.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/9.0.55]
+[TRACEID:] 2022-01-12 15:32:40.652 [main-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring embedded WebApplicationContext
+[TRACEID:] 2022-01-12 15:32:40.653 [main-290] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2153 ms
+[TRACEID:] 2022-01-12 15:32:41.865 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:32:41.885 [main-220] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8080 (http) with context path ''
+[TRACEID:] 2022-01-12 15:32:41.897 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.473 seconds (JVM running for 5.923)
+[TRACEID:] 2022-01-12 15:32:41.897 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 4.473 seconds (JVM running for 5.923)
+[TRACEID:] 2022-01-12 15:33:55.486 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:33:55.486 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 15:34:04.243 [background-preinit-21] INFO  o.h.validator.internal.util.Version 21 <clinit> - HV000001: Hibernate Validator 6.2.0.Final
+[TRACEID:] 2022-01-12 15:34:04.248 [main-55] INFO  c.e.springboot.SpringbootApplication 55 logStarting - Starting SpringbootApplication using Java 1.8.0_201 on AC5957 with PID 1776 (E:\project-learn\springboot\target\classes started by Administrator in E:\project-learn\springboot)
+[TRACEID:] 2022-01-12 15:34:04.249 [main-635] INFO  c.e.springboot.SpringbootApplication 635 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+[TRACEID:] 2022-01-12 15:34:05.252 [main-262] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 262 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[TRACEID:] 2022-01-12 15:34:05.255 [main-132] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 132 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[TRACEID:] 2022-01-12 15:34:05.289 [main-201] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 201 registerRepositoriesIn - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+[TRACEID:] 2022-01-12 15:34:05.419 [main-44] WARN  o.m.s.mapper.ClassPathMapperScanner 44 warn - Cannot use both: sqlSessionTemplate and sqlSessionFactory together. sqlSessionFactory is ignored.
+[TRACEID:] 2022-01-12 15:34:05.804 [main-376] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 376 postProcessAfterInitialization - Bean 'beanLifeCycleConfig' of type [com.example.springboot.beanlifecycle.BeanLifeCycleConfig$$EnhancerBySpringCGLIB$$71f26014] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[TRACEID:] 2022-01-12 15:34:06.167 [main-108] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8080 (http)
+[TRACEID:] 2022-01-12 15:34:06.177 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Initializing ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:34:06.178 [main-173] INFO  o.a.catalina.core.StandardService 173 log - Starting service [Tomcat]
+[TRACEID:] 2022-01-12 15:34:06.178 [main-173] INFO  o.a.catalina.core.StandardEngine 173 log - Starting Servlet engine: [Apache Tomcat/9.0.55]
+[TRACEID:] 2022-01-12 15:34:06.282 [main-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring embedded WebApplicationContext
+[TRACEID:] 2022-01-12 15:34:06.282 [main-290] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 290 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1983 ms
+[TRACEID:] 2022-01-12 15:34:07.624 [main-173] INFO  o.a.coyote.http11.Http11NioProtocol 173 log - Starting ProtocolHandler ["http-nio-8080"]
+[TRACEID:] 2022-01-12 15:34:07.643 [main-220] INFO  o.s.b.w.e.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8080 (http) with context path ''
+[TRACEID:] 2022-01-12 15:34:07.654 [main-61] INFO  c.e.springboot.SpringbootApplication 61 logStarted - Started SpringbootApplication in 3.887 seconds (JVM running for 5.159)
+[TRACEID:] 2022-01-12 15:34:11.726 [http-nio-8080-exec-2-173] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TRACEID:] 2022-01-12 15:34:11.726 [http-nio-8080-exec-2-525] INFO  o.s.web.servlet.DispatcherServlet 525 initServletBean - Initializing Servlet 'dispatcherServlet'
+[TRACEID:] 2022-01-12 15:34:11.727 [http-nio-8080-exec-2-547] INFO  o.s.web.servlet.DispatcherServlet 547 initServletBean - Completed initialization in 0 ms
+[TRACEID:b1e2cf1a-572c-45c0-9cd4-b9e075750b75] 2022-01-12 15:34:11.765 [http-nio-8080-exec-2-32] INFO  c.e.s.c.ModelAttributeController 32 getUser - ======================test====================
+[TRACEID:] 2022-01-12 16:09:29.004 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...
+[TRACEID:] 2022-01-12 16:09:29.005 [SpringApplicationShutdownHook-2043] INFO  c.alibaba.druid.pool.DruidDataSource 2043 close - {dataSource-0} closing ...

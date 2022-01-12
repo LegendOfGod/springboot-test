@@ -3,7 +3,7 @@
 	<!-- 定义日志存放目录 -->
 	<property name="logPath" value="logs"/>
 	<!--    日志输出的格式-->
-	<property name="PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t-%L] %-5level %logger{36} %L %M - %msg%xEx%n"/>
+	<property name="PATTERN" value="[TRACEID:%X{traceId}] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t-%L] %-5level %logger{36} %L %M - %msg%xEx%n"/>
 	<contextName>logback</contextName>
 
 	<!--输出到控制台 ConsoleAppender-->
@@ -100,7 +100,7 @@
 	<logger name="org.springframework.amqp.*" level="DEBUG"></logger>
 	<logger name="org.springframework.scheduling.*" level="DEBUG"></logger>-->
 	<!--定义com.xxx..xx..xx包下的日志信息不上传，直接输出到fileDEBUGLog和fileErrorLog这个两个appender中，日志级别为DEBUG-->
-	<logger name="com.example.springboot"  additivity="true" level="INFO">
+	<logger name="com.example.springboot"  additivity="false" level="INFO">
 		<appender-ref ref="fileDEBUGLog"/>
 		<appender-ref ref="fileErrorLog"/>
 		<appender-ref ref="consoleLog"/>

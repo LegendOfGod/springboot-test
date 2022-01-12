@@ -1,5 +1,6 @@
 package com.example.springboot.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
@@ -16,6 +17,7 @@ import java.util.Date;
  * @date 2022/1/11 19:16
  */
 @RestController
+@Slf4j
 public class ModelAttributeController {
 
     @ModelAttribute
@@ -27,6 +29,7 @@ public class ModelAttributeController {
     @CrossOrigin
     public String getUser(@ModelAttribute String user, ModelAndView modelAndView){
         Object user1 = modelAndView.getModel().get("user");
+        log.info("======================test====================");
         return (String) user1;
     }
 

@@ -14,13 +14,21 @@ public class InterceptorConfig implements WebMvcConfigurer {
 
     private RepeatSubmitHandler repeatSubmitHandler;
 
+    private LogInterceptor logInterceptor;
+
     @Autowired
     public void setRepeatSubmitHandler(RepeatSubmitHandler repeatSubmitHandler) {
         this.repeatSubmitHandler = repeatSubmitHandler;
     }
 
+    @Autowired
+    public void setLogInterceptor(LogInterceptor logInterceptor) {
+        this.logInterceptor = logInterceptor;
+    }
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(repeatSubmitHandler);
+        registry.addInterceptor(repeatSubmitHandler).order(1);
+        registry.addInterceptor(logInterceptor).order(2);
     }
 }
