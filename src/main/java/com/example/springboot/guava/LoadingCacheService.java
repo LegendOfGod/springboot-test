@@ -10,4 +10,6 @@ public interface LoadingCacheService {
      * @return true or false
      */
     public boolean tryAcquire();
+
+    public void releaseAcquire();
 }
