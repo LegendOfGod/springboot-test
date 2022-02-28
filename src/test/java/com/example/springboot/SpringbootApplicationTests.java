@@ -32,7 +32,7 @@ class SpringbootApplicationTests {
     }
 
     @Test
-    void testFileOperation() throws Exception{
+    void testFileOperation() throws Exception {
         System.out.println(httpSession.getServletContext().getContextPath());
         httpSession.getServletContext().getRealPath("");
         System.out.println(System.getProperty("user.dir"));
@@ -41,5 +41,7 @@ class SpringbootApplicationTests {
         fileOutputStream.write("a".getBytes(StandardCharsets.UTF_8));
         fileOutputStream.close();
     }
+
+
 
 }
